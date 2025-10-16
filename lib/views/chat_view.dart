@@ -1,5 +1,6 @@
 import 'package:chat_boggy_2025_2/views/her_message_bubble_view.dart';
 import 'package:chat_boggy_2025_2/views/my_message_bubble_view.dart';
+import 'package:chat_boggy_2025_2/widgets/message_field_box.dart';
 import 'package:flutter/material.dart';
 
 class ChatView extends StatelessWidget {
@@ -31,6 +32,7 @@ class ChatView extends StatelessWidget {
               ),
             ),
           ),
+          const MessageFieldBox(),
         ],
       ),
     );
